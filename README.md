@@ -1,6 +1,6 @@
 ## CAB230 Assignment 1
 
-**Author:** Parker Rennie
+**Author:** Parker Rennie <br>
 **Date:** 01/03/2025
 
 ---
