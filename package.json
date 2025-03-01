@@ -1,0 +1,51 @@
+{
+    "name": "example",
+    "version": "1.0.0",
+    "description": "A collection of utility functions.",
+    "scripts": {
+      "test": "set NODE_OPTIONS=--experimental-vm-modules && jest --coverage",
+      "lint": "eslint . --ext .js",
+      "format": "prettier --write .",
+      "precommit": "npm run lint && npm run test"
+    },
+    "keywords": ["utility", "math", "comparison", "search", "validation"],
+    "author": "Parker Rennie",
+    "license": "MIT",
+    "type": "module",
+    "directories": {
+      "src": "src",
+      "test": "test"
+    },
+    "devDependencies": {
+      "jest": "^29.7.0",
+      "eslint": "^8.54.0",
+      "prettier": "^3.2.1"
+    },
+    "eslintConfig": {
+      "env": {
+        "es2022": true,
+        "node": true,
+        "jest": true
+      },
+      "extends": ["eslint:recommended"],
+      "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+      },
+      "rules": {
+        "no-unused-vars": "warn",
+        "no-console": "warn",
+        "eqeqeq": "error",
+        "semi": ["error", "always"],
+        "quotes": ["error", "double"]
+      }
+    },
+    "prettier": {
+      "singleQuote": false,
+      "semi": true,
+      "trailingComma": "es5",
+      "printWidth": 80,
+      "tabWidth": 2
+    }
+  }
+  
