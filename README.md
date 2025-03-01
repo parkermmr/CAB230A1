@@ -7,7 +7,7 @@
 
 ### Summary
 
-This is a project encompassing the simple `Gradescope` questions for assignment one for CAB203 - Web Computing.
+This is a project encompassing the simple `Gradescope` questions for assignment one for CAB230 - Web Computing.
 
 To run the testing use the `npm` command:
 
