@@ -26,7 +26,9 @@ function validateInputs(...args) {
  * @throws {Error} If incorrect arguments are provided.
  * @throws {TypeError} If the argument is not an array.
  */
-export function countUnique(arr) {
+function countUnique(arr) {
     validateInputs(...arguments);
     return new Set(arr).size;   
 }
+
+export { countUnique };

@@ -51,7 +51,7 @@ function validateInputs(...args) {
  * @throws {TypeError} If `vec` is not a valid numeric array.
  * @throws {TypeError} If `x` is not a valid number.
  */
-export function pushMultiplySum(vec, x) {
+function pushMultiplySum(vec, x) {
     validateInputs(...arguments);
     validateArray(vec);
     validateNumber(x);
@@ -60,3 +60,4 @@ export function pushMultiplySum(vec, x) {
     return extendedVec.reduce((sum, num) => sum + num, 0);
 }
 
+export { pushMultiplySum };

@@ -10,7 +10,7 @@ describe("searchBooks function", () => {
 
     test("should return book titles as a comma-separated string for a given author", () => {
         expect(searchBooks(validLibrary, "J.K. Rowling")).toBe(
-            "Harry Potter and the Sorcerer's Stone, Harry Potter and the Chamber of Secrets"
+            "Harry Potter and the Sorcerer's Stone,Harry Potter and the Chamber of Secrets"
         );
         expect(searchBooks(validLibrary, "J.R.R. Tolkien")).toBe("The Hobbit");
     });

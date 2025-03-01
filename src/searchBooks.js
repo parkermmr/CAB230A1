@@ -64,7 +64,7 @@ const bookSchema = {
  * @throws {TypeError} If `authorName` is not a string.
  * @throws {Error} If any book object in the `library` does not match the `bookSchema`.
  */
-export function searchBooks(library, authorName) {
+function searchBooks(library, authorName) {
     validateInputs(...arguments);
     if (!Array.isArray(library)) {
         throw new TypeError("Expected 'library' to be an array.");
@@ -79,5 +79,7 @@ export function searchBooks(library, authorName) {
         .filter(book => book.author === authorName)
         .map(book => book.title);
 
-    return books.length > 0 ? books.join(', ') : 'NOT FOUND';
+    return books.length > 0 ? books.join(',') : 'NOT FOUND';
 }
+
+export { searchBooks };

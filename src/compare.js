@@ -21,8 +21,10 @@ function validateInputs(...args) {
  * @returns {boolean} `true` if `x` and `y` are equal in both value and type, otherwise `false`.
  * @throws {Error} If incorrect arguments are provided.
  */
-export function compare(x, y) {
+function compare(x, y) {
     validateInputs(...arguments);
     return x === y;
 }
+
+export { compare };
 

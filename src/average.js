@@ -27,8 +27,9 @@ function validateInputs(...args) {
  * @throws {Error} If incorrect arguments are provided.
  * @throws {TypeError} If inputs are not valid numbers.
  */
-export function average(x, y) {
+function average(x, y) {
     validateInputs(...arguments);
     return (x + y) / 2;
 }
 
+export { average };
