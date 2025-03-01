@@ -1,16 +1,3 @@
----
-title: "CAB230 Assignment 1"
-author: "Parker Rennie"       
-date: "01/03/2025"               
-geometry:
-  - top=1in
-  - bottom=1in
-  - left=1in
-  - right=1in
-toc: true
-toc-title: "Table of Contents"
----
-
 ## CAB230 Assignment 1
 
 **Author:** Parker Rennie
