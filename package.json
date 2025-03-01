@@ -1,7 +1,7 @@
 {
-    "name": "example",
+    "name": "cab230a1",
     "version": "1.0.0",
-    "description": "A collection of utility functions.",
+    "description": "A collection of utility functions for CAB230 Assignment 1",
     "scripts": {
       "test": "set NODE_OPTIONS=--experimental-vm-modules && jest --coverage",
       "lint": "eslint . --ext .js",
